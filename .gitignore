@@ -1,0 +1,19 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencias
+backend/node_modules
+frontend/node_modules
+
+# Salidas de build y archivos locales
+frontend/dist
+backend/logs
+backend/.env
+.env
+.npm
+
+# Archivos de sistema y carpetas de ajustes IDE
+.DS_Store
+.idea
+.vscode

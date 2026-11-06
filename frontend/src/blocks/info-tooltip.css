@@ -1,0 +1,39 @@
+.popup__content.info-tooltip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px 36px;
+}
+
+.info-tooltip__icon {
+  width: 120px;
+  height: 120px;
+  margin: 0 0 32px;
+}
+
+.info-tooltip__message {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 900;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__content.info-tooltip {
+    padding: 50px 18px;
+  }
+
+  .info-tooltip__icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+  }
+
+  .info-tooltip__message {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
